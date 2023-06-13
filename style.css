@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Sulphur Point', sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(#32e058, #d809ca);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  width: 450px;
+  background: rgba(255, 255, 255, .7);
+  padding: 2.5rem;
+  border-radius: 12px;
+  position: relative;
+}
+
+.login-card img {
+  width: 130px;
+}
+
+.login-card-logo,
+.login-card-header,
+.login-card-footer {
+  text-align: center;
+}
+
+.login-card a {
+  text-decoration: none;
+}
+
+.login-card a:hover {
+  text-decoration: underline;
+}
+
+.login-card-header {
+  margin-bottom: 2rem;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.login-card-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.login-card-form svg {
+  position: relative;
+  right: 22.200000000000003rem;
+  top: .2rem;
+}
+
+
+.form-item {
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+}
+
+.login-card input[type="text"],
+.login-card input[type="password"] {
+  border: none;
+  outline: none;
+  padding: 1.2rem 2.5rem;
+  margin-bottom: 12px;
+  border-radius: 100px;
+  width: 150%;
+}
+
+.label {
+  display: flex;
+  position: relative;
+  right: 22rem;
+  top: -1.2rem;
+  color: rgb(153, 153, 153);
+}
+
+.form-item-other {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+button {
+  background: rgb(101, 14, 188);
+  color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 100px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.login-card-footer {
+  margin-top: 1rem;
+  margin-bottom: 1.12rem;
+}
+
+.login-card-text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: .8rem;
+}
+
+.login-card-social-btn {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+}
+
+.login-card-social-btn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  top: 10px;
+  transition: all .5s;
+}
+
+.login-card-social-btn a:hover {
+  color: white;
+}
+
+.login-card-social-btn a:active {
+  color: rgb(137, 224, 6);
+}
+
+.instagram-logo {
+  color: black;
+  background: linear-gradient(to right, #1e0530, #861dfd9e, #fbc045);
+}
+
+.twitter-logo {
+  background: linear-gradient(to right, #21b058, #6dd5ed);
+  color: black;
+}
+
+.facebook-logo {
+  color: black;
+  background: linear-gradient(to right, #0da3da, #d2cedbbf);
+}
